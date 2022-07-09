@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+:root {
+    --body-background: grey;
+    --grey-color: #757780;
+    --azure-white: rgb(206, 210, 210);
+    --sky-blue-crayola: #51e5ff;
+    --dark-sea-green: #8fad88;
+    --green-yellow: greenyellow;
+}
+header {
+    background-color: var(--grey-color);
+    height: 4rem;
+}
+
+header ul {
+    text-align: right;
+}
+header li {
+    display: inline-block;
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    margin-top: .6rem;
+    color: var(--azure-white);
+}
+ header a {
+    color: var(--azure-white);
+    text-decoration: none;
+ }
+ header a:hover {
+    color: white;
+    text-decoration: none;
+ }
+
+* {
+    font-family: 'Akshar', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-form, 
+.register-form {
+    display: inline-block;
+    width: 40vw;
+    /* background-color: var(--grey-color); */
+    margin: 8vh 0 0 30vw;
+    border-radius: .5rem;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../static/background-pattern.jpeg');
+    background-size: cover;
+}
+
+.login-form {
+    height: 50vh;
+}
+
+.register-form {
+    height: 80vh;
+}
+
+.login-form h1,
+.register-form h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: var(--azure-white);
+    margin-bottom: 1.5rem;
+}
+
+.login-form p {
+    color: var(--azure-white);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.login-form a {
+    color: var(--dark-sea-green);
+}
+.login-form a:hover {
+    color: var(--green-yellow);
+}
+
+.login-input {
+    width: 50%;
+    margin: .1rem 0 0 25%;
+}
+
+.login-btn {
+    margin: 1rem 0 0 35%;
+    width: 30%;
+}
